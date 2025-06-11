@@ -50,7 +50,7 @@ cd ../frontend
 npm install
 npm run dev
 
-👨‍💻 Usage
+##👨‍💻 Usage
 Enter your username and room ID
 
 Share the same room ID with others to draw together
