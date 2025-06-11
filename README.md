@@ -28,7 +28,7 @@ A full-stack real-time collaborative whiteboard built with the MERN stack (React
 
 ## 🔗 Live Links
 
-> Replace the placeholders below with your actual links after deployment:
+> Replace these with your actual deployed links after deployment:
 
 - 🌐 **Frontend**: [https://your-netlify-site.netlify.app](https://your-netlify-site.netlify.app)
 - 🛠️ **Backend (Socket.IO Server)**: [https://your-backend.onrender.com](https://your-backend.onrender.com)
@@ -37,22 +37,53 @@ A full-stack real-time collaborative whiteboard built with the MERN stack (React
 
 ## 🧪 Run Locally
 
+Follow these steps to run the project on your local machine:
+
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/29sujal/collab-whiteboard.git
 cd collab-whiteboard
+````
 
+### 2. Start the backend server
+
+```bash
 cd backend
 npm install
 node server.js
+```
 
+### 3. Start the frontend development server
+
+```bash
 cd ../frontend
 npm install
 npm run dev
+```
+
+---
 
 ## 👨‍💻 Usage
 
-Enter your username and room ID
-Share the same room ID with others to draw together
-Use toolbar for color, brush size, undo/redo, clear, and export
+* Open the app in your browser
+* Enter your **username** and a **room ID**
+* Share the same **room ID** with others to draw together in real time
+* Use the toolbar to:
+
+  * 🖌️ Select pencil color
+  * 📏 Change brush size
+  * ↩️ Undo / Redo
+  * 🧹 Clear canvas
+  * 📤 Export drawing as PNG
+
+---
+
+
+## ✍️ Author
+
+**Sujal Yadav**
+B.Tech CSE | MERN Stack Developer
+🔗 GitHub: [https://github.com/29sujal](https://github.com/29sujal)
+
 
